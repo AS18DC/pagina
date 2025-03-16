@@ -61,7 +61,11 @@ background-size: 20px 20px; /* Tamaño de la cuadrícula */
     font-weight: 800;
     font-size: 6vh;
     font-style: normal;
-  }
+}
 
-
+@media (max-width: 600px) {
+    .ibm-plex-serif-thin {
+        font-size: 4vh; /* Smaller font size for mobile */
+    }
+}
   
