@@ -34,7 +34,7 @@ export default function Steps() {
         <h2 className="text-3xl text-black font-bold mb-10 flex justify-center"><span className="text-blue-500">¿</span>Cómo empezar<span className="text-blue-500">?</span></h2>
         <div className="grid md:grid-cols-2 mb-20 lg:grid-cols-4 gap-6 ">
           {steps.map((step) => (
-            <div key={step.number} className="bg-[#664D30] drop-shadow-xl p-6 rounded-xl hover:scale-105 transition">
+            <div key={step.number} className="bg-[#586576] drop-shadow-xl p-6 rounded-xl hover:scale-105 transition">
               <div className="text-[#eddbc1] font-bold text-xl mb-2">{step.number}. {step.title}</div>
               <p className="text-gray-400">{step.description}</p>
             </div>
