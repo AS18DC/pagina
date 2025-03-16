@@ -1,9 +1,9 @@
-import logo from '../img/logo8.png';
+import logo from '../img/logo6.png';
 export default function Header() {
   return (
     <header className="text-center">
       <div className="flex justify-center margen-abajo">
-        <img src={logo} alt="Logo BAI automation" width={380} className="animate-pulse"/>
+        <img src={logo} alt="Logo BAI automation" width={305} className="animate-pulse"/>
       </div>
       <h1 className="text-4xl ibm-plex-serif-thin font-bold mb-4 low-margin text-black">
         Te ahorramos <span className="text-[#b89595]">horas</span> de trabajo con IA
@@ -18,7 +18,7 @@ export default function Header() {
       </div>
 
       <a href="https://cal.com/baiautomation/60-min-meeting">
-      <button className="bg-[#ab5c5c] drop-shadow-lg text-gray-200 mt-5 px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+      <button className="bg-[#b89595] text-gray-100 mt-5 px-6 py-3 rounded-lg hover:bg-[#4b1515] transition shadow-lg shadow-[#d4a5a5]/100">
         Agendar consultoría <span className="font-bold">GRATIS</span>
       </button>
         </a>
